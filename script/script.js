@@ -31,7 +31,7 @@ const video = document.querySelector('video');
 console.log(startButton,captionContainer,video);
 
 startButton.addEventListener('click', () => {
-    if (video.paused) {
+    if (video.pause) {
         video.play();
         startButton.classList.add('hidden');
         captionContainer.classList.add('start');
