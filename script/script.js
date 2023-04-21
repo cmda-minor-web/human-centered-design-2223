@@ -3,8 +3,8 @@ import { captions } from "./captions.js";
 console.log(captions);
 
 const startButton = document.querySelector("main button");
-const captionContainer = document.querySelector("main section div");
-let caption = document.querySelector("main section div p");
+const captionContainer = document.querySelector("main section ul");
+// let caption = document.querySelector("main section div p");
 const video = document.querySelector("video");
 let pauseTime = 0;
 
@@ -21,12 +21,104 @@ startButton.addEventListener("click", () => {
   }
 });
 
+
+
+let currentCaptionIndex = 0;
+
 video.addEventListener("timeupdate", () => {
-  pauseTime = video.currentTime;
-  console.log("Pause time:", pauseTime);
-  for (let i = 0; i < captions.length; i++) {
-    if (pauseTime >= captions[i].time) {
-      caption.innerHTML = captions[i].caption;
+  
+  const currentTime = video.currentTime;
+  const currentCaption = captions[currentCaptionIndex];
+  
+  console.log("timer 0", currentTime);
+  
+  if (currentTime >= currentCaption.time && currentCaptionIndex < captions.length + 1) {
+
+    if (captions[currentCaptionIndex].groep === "true" ) {
+      console.log("timer 1", currentCaptionIndex , 
+      captions[currentCaptionIndex].charachter);
+
+      if (captionContainer.childElementCount >= 1) {
+        let captions = document.querySelectorAll("main section ul li");
+        for (let i = 0; i < captions.length; i++) {
+          captions[i].remove();
+        }
+      }
+
+      const liElement = document.createElement("li");
+      const pElement = document.createElement("p");
+      const divElement = document.createElement("div");
+      const imgElement = document.createElement("img");
+      
+      imgElement.src = captions[currentCaptionIndex].img;
+      pElement.innerHTML = captions[currentCaptionIndex].caption;
+
+      divElement.appendChild(imgElement);
+      liElement.appendChild(divElement);
+      liElement.appendChild(pElement);
+      captionContainer.appendChild(liElement);
+
+      console.log("timer 1.5", currentCaptionIndex );
+
+      setTimeout(() => {
+        currentCaptionIndex++;
+
+        console.log("timer 1.5",captions[currentCaptionIndex].groep,captions[currentCaptionIndex].charachter);
+
+
+        console.log("timer 2", currentCaptionIndex );
+        const liElement2 = document.createElement("li");
+        const pElement2 = document.createElement("p");
+        const divElement2 = document.createElement("div");
+        const imgElement2 = document.createElement("img");
+
+
+        imgElement2.src = captions[currentCaptionIndex].img;
+        pElement2.innerHTML = captions[currentCaptionIndex].caption;
+
+        divElement2.appendChild(imgElement2);
+        liElement2.appendChild(divElement2);
+        liElement2.appendChild(pElement2);
+        captionContainer.appendChild(liElement2);
+        
+        currentCaptionIndex++;
+      }, 1500); // 5000 milliseconden = 5 seconden
+      
+
+    } else if(captions[currentCaptionIndex].groep === "false" ) {
+
+      console.log("timer 3", currentCaptionIndex );
+
+      const divElement = document.createElement("div");
+      const liElement = document.createElement("li");
+      const pElement = document.createElement("p");
+      const imgElement = document.createElement("img");
+
+      if (captions[currentCaptionIndex].charachter) {
+        imgElement.src = captions[currentCaptionIndex].img;
+      }
+
+      pElement.innerHTML = captions[currentCaptionIndex].caption;
+
+      divElement.appendChild(imgElement);
+      liElement.appendChild(divElement);
+      liElement.appendChild(pElement);
+      captionContainer.appendChild(liElement);
+
+      if (captionContainer.childElementCount > 1) {
+        let caption = document.querySelector("main section ul li:first-of-type");
+        caption.remove();
+      }
+
+      currentCaptionIndex++;
     }
   }
 });
+
+
+// if (captionContainer.childElementCount >= 1) {
+//   let captions = document.querySelectorAll("main section ul li");
+//   for (let t = 0; t < captions.length; t++) {
+//     captions[t].remove();
+//   }
+// }

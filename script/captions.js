@@ -1,89 +1,45 @@
 export let captions = [
-    {caption: 'Ebra! boterhammen maken!', time: 0},
-    {caption: 'Stop niet met het maken van sandwiches!', time: 2},
-    {caption: 'Ja, chef-kok', time:4.5},
-    {caption: 'Ik ga drie secties maken, oké?', time:5},
-    {caption: 'Ze worden Wet, Hot en Sweet, oké?', time:6},
-    {caption: 'Ik ga groene tape nemen, die secties maken.', time:9}
-  ];
- 
-  // {caption: 'Ik ga drie secties maken, oké?', time:{start: '4.5ms', end: '6ms'}},
-  // {caption: 'Ze worden Wet, Hot en sweet, oké?', time:{start: '7ms', end: '8ms'}},
-  // {caption: 'Ik ga groene tape nemen, die secties maken.', time:{start: '9ms', end: '10ms'}},
+  {
+    groep: "false",
+    time: 0,
+    charachter: "Carmen",
+    caption: "Ebra! boterhammen maken!",
+    img: "https://64.media.tumblr.com/3e8cc9270789ae1c2552994795d34b2a/770388cab1fe1707-41/s400x600/e66c92945455234095e2a4bdf814700552ffe8ba.png",
+  },
+  {
+    groep: "true",
+    time: 2,
+    charachter:"Carmen", 
 
-
-
-
-
-
-// export let captions = [
-//     caption = 'Ebra! boterhammen maken!',
-//     caption = 'Stop niet met het maken van sandwiches!',
-//     caption[2] = 'Ja, chef-kok',
-//     caption[3] = 'Ik ga drie secties maken, oké?',
-//     caption[4] = 'Ze worden Wet, Hot en sweet, oké?',
-//     caption[5] = 'Ik ga groene tape nemen, die secties maken.',
-//     caption[6] = '',
-
-//     caption[7] = '',
-
-//     caption[8] = '',
-
-//     caption[9] = '',
-
-//     caption[1'0ms'] = '',
-
-//     caption[11] = '',
-
-//     caption[12] = '',
-
-//     caption[13] = '',
-
-//     caption[14] = '',
-
-//     caption[15] = '',
-
-//     caption[16] = '',
-
-//     caption[17] = '',
-
-//     caption[18] = '',
-
-//     caption[19] = '',
-
-//     caption[2'0ms'] = '',
-
-//     caption[21] = '',
-
-//     caption[22] = '',
-
-//     caption[23] = '',
-
-//     caption[24] = '',
-
-//     caption[25] = '',
-
-//     caption[26] = '',
-
-//     caption[27] = '',
-
-//     caption[28] = '',
-
-//     caption[29] = '',
-
-//     caption[3'0ms'] = '',
-
-//     caption[31] = '',
-
-//     caption[32] = '',
-
-//     caption[33] = '',
-
-//     caption[34] = '',
-
-//     caption[35] = '',
-
-//     caption[36] = '',
-
-//     caption[37] = ''
-// ]
+    caption:"Stop niet!! met het maken van sandwiches!",
+    img:"https://64.media.tumblr.com/3e8cc9270789ae1c2552994795d34b2a/770388cab1fe1707-41/s400x600/e66c92945455234095e2a4bdf814700552ffe8ba.png",
+  },
+  {
+    groep: "",
+    time: 2,
+    charachter: "Ebra",
+    caption: "Ja, chef",
+    img: "https://www.magicalquote.com/wp-content/uploads/2022/09/Ebraheim.jpg",
+  },
+  {
+    groep: "false",
+    time: 5,
+    charachter: "Carmen",
+    caption: "Ik ga drie secties maken, oké?",
+    img: "https://64.media.tumblr.com/3e8cc9270789ae1c2552994795d34b2a/770388cab1fe1707-41/s400x600/e66c92945455234095e2a4bdf814700552ffe8ba.png",
+  },
+  {
+    groep: "false",
+    time: 7.5,
+    charachter: "Carmen",
+    caption: "Ze worden Wet, Hot en Sweet, oké?",
+    img: "https://64.media.tumblr.com/3e8cc9270789ae1c2552994795d34b2a/770388cab1fe1707-41/s400x600/e66c92945455234095e2a4bdf814700552ffe8ba.png",
+  },
+  {
+    groep: "false",
+    time: 9.5,
+    charachter: "Carmen",
+    caption: "Ik ga groene tape nemen, die secties maken.",
+    img: "https://64.media.tumblr.com/3e8cc9270789ae1c2552994795d34b2a/770388cab1fe1707-41/s400x600/e66c92945455234095e2a4bdf814700552ffe8ba.png",
+  },
+];
