@@ -1,45 +1,32 @@
-// import { captions } from "./coptions.js";
+import { captions } from "./captions.js";
 
-// const startButton = document.querySelector('main button')
-// const captionContainer = document.querySelector('main section div')
-// const video = document.querySelector('video')
+console.log(captions);
 
+const startButton = document.querySelector("main button");
+const captionContainer = document.querySelector("main section div");
+let caption = document.querySelector("main section div p");
+const video = document.querySelector("video");
+let pauseTime = 0;
 
-// startButton.addEventListener('click', () => {
-//     if (video.pause) {
-//         video.play();
-//         startButton.classList.add('hidden')
-//         captionContainer.classList.add('start')
+startButton.addEventListener("click", () => {
+  if (video.paused) {
+    video.play();
+    startButton.classList.add("hidden");
+    captionContainer.classList.add("start");
+    console.log("start");
+  } else {
+    video.pause();
+    startButton.classList.remove("hidden");
+    console.log("pause");
+  }
+});
 
-//         console.log("start");
-//     } else {
-//         video.pause()
-//         startButton.classList.remove('hidden')
-//         captionContainer.classList.remove('start')
-
-//         console.log("pause");
-//     }
-// })
-
-
-
-
-// const startButton = document.querySelector('main button');
-const captionContainer = document.querySelector('main section div');
-const video = document.querySelector('video');
-
-console.log(captionContainer,video);
-
-// startButton.addEventListener('click', () => {
-    if (video.pause) {
-        video.play();
-        // startButton.classList.add('hidden');
-        captionContainer.classList.add('start');
-        console.log("start");
-    } else {
-        video.pause();
-        // startButton.classList.remove('hidden');
-        captionContainer.classList.remove('start');
-        console.log("pause");
+video.addEventListener("timeupdate", () => {
+  pauseTime = video.currentTime;
+  console.log("Pause time:", pauseTime);
+  for (let i = 0; i < captions.length; i++) {
+    if (pauseTime >= captions[i].time) {
+      caption.innerHTML = captions[i].caption;
     }
-// });
+  }
+});

@@ -1,12 +1,20 @@
 export let captions = [
-    {caption: 'Ebra! boterhammen maken!', time:{start: '0ms', end: '2ms'}},
-    {caption: 'Stop niet met het maken van sandwiches!', time:{start: '2ms', end: '4ms'}},
-    {caption: 'Ja, chef-kok', time:{start: '4ms', end: '4.5ms'}},
-    {caption: 'Ik ga drie secties maken, oké?', time:{start: '4.5ms', end: '6ms'}},
-    {caption: 'Ze worden Wet, Hot en sweet, oké?', time:{start: '7ms', end: '8ms'}},
-    {caption: 'Ik ga groene tape nemen, die secties maken.', time:{start: '9ms', end: '10ms'}},
+    {caption: 'Ebra! boterhammen maken!', time: 0},
+    {caption: 'Stop niet met het maken van sandwiches!', time: 2},
+    {caption: 'Ja, chef-kok', time:4.5},
+    {caption: 'Ik ga drie secties maken, oké?', time:5},
+    {caption: 'Ze worden Wet, Hot en Sweet, oké?', time:6},
+    {caption: 'Ik ga groene tape nemen, die secties maken.', time:9}
   ];
-  
+ 
+  // {caption: 'Ik ga drie secties maken, oké?', time:{start: '4.5ms', end: '6ms'}},
+  // {caption: 'Ze worden Wet, Hot en sweet, oké?', time:{start: '7ms', end: '8ms'}},
+  // {caption: 'Ik ga groene tape nemen, die secties maken.', time:{start: '9ms', end: '10ms'}},
+
+
+
+
+
 
 // export let captions = [
 //     caption = 'Ebra! boterhammen maken!',

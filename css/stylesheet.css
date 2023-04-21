@@ -43,27 +43,60 @@ main{
 }
 
 main button{
-    /* width: 100%;
-    height: 100%; */
-
     width: 100%;
     aspect-ratio: 16/9;
     position: absolute;
 
     background-color: transparent;
-    background-image: url('../images/youtube.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 10%;
     border: none;
 
     cursor: pointer;
 }
 
+main button::after{
+    content: "";
+    display: block;
+    width: 15%;
+    aspect-ratio: 1/.6;
+
+    background-image: url('../images/youtube.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+
+    transition: .5s;
+
+    position: absolute;
+    top: calc(50% - 10%/2);
+    left: calc(50% - 10%/2);
+}
+
 main button.hidden{
     background-image: none;
-    background-color: #decbe4;
+    /* background-color: #decbe4; */
+}
 
+main button.hidden::after{
+    opacity: 0;
+}
+
+main button:hover::after{
+    filter: drop-shadow(0 0 .5em white);
+}
+main button:focus::after{
+    /* background-size: 15%; */
+    animation: startHover .5s infinite both alternate linear;
+
+}
+
+@keyframes startHover{
+    from{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(-10deg);
+
+    }
 }
 
 /* main iframe, */
