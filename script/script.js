@@ -35,8 +35,7 @@ video.addEventListener("timeupdate", () => {
   if (currentTime >= currentCaption.time && currentCaptionIndex < captions.length + 1) {
 
     if (captions[currentCaptionIndex].groep === "true" ) {
-      console.log("timer 1", currentCaptionIndex , 
-      captions[currentCaptionIndex].charachter);
+      console.log("currentCaptionIndex", currentCaptionIndex,"currentTime", currentCaptionIndex , captions[currentCaptionIndex].charachter);
 
       if (captionContainer.childElementCount >= 1) {
         let captions = document.querySelectorAll("main section ul li");
@@ -58,15 +57,13 @@ video.addEventListener("timeupdate", () => {
       liElement.appendChild(pElement);
       captionContainer.appendChild(liElement);
 
-      console.log("timer 1.5", currentCaptionIndex );
+      // console.log("currentCaptionIndex", currentCaptionIndex, "currentTime",  currentCaptionIndex );
 
       setTimeout(() => {
         currentCaptionIndex++;
+        console.log("currentCaptionIndex", currentCaptionIndex, "currentTime", currentCaptionIndex , captions[currentCaptionIndex].charachter );
+        currentCaptionIndex++;
 
-        console.log("timer 1.5",captions[currentCaptionIndex].groep,captions[currentCaptionIndex].charachter);
-
-
-        console.log("timer 2", currentCaptionIndex );
         const liElement2 = document.createElement("li");
         const pElement2 = document.createElement("p");
         const divElement2 = document.createElement("div");
