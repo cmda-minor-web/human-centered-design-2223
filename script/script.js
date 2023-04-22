@@ -60,9 +60,7 @@ video.addEventListener("timeupdate", () => {
       // console.log("currentCaptionIndex", currentCaptionIndex, "currentTime",  currentCaptionIndex );
 
       setTimeout(() => {
-        currentCaptionIndex++;
         console.log("currentCaptionIndex", currentCaptionIndex, "currentTime", currentCaptionIndex , captions[currentCaptionIndex].charachter );
-        currentCaptionIndex++;
 
         const liElement2 = document.createElement("li");
         const pElement2 = document.createElement("p");
@@ -70,8 +68,8 @@ video.addEventListener("timeupdate", () => {
         const imgElement2 = document.createElement("img");
 
 
-        imgElement2.src = captions[currentCaptionIndex].img;
-        pElement2.innerHTML = captions[currentCaptionIndex].caption;
+        imgElement2.src = captions[currentCaptionIndex + 1].img;
+        pElement2.innerHTML = captions[currentCaptionIndex + 1].caption;
 
         divElement2.appendChild(imgElement2);
         liElement2.appendChild(divElement2);
@@ -81,10 +79,10 @@ video.addEventListener("timeupdate", () => {
         currentCaptionIndex++;
       }, 1500); // 5000 milliseconden = 5 seconden
       
+      console.log("currentCaptionIndex", currentCaptionIndex, "currentTime", currentCaptionIndex , captions[currentCaptionIndex].charachter );
+
 
     } else if(captions[currentCaptionIndex].groep === "false" ) {
-
-      console.log("timer 3", currentCaptionIndex );
 
       const divElement = document.createElement("div");
       const liElement = document.createElement("li");
