@@ -73,3 +73,23 @@ Eric is een ontwerper. Hij organiseert regelmatig design-avonden waar hij probee
 - Zorg dat je voor de beoordeling in je Readme (of wiki) een conclusie schrijft waar je in gaat op de leerdoelen en criteria en hoe je dit hebt gehaald. Dit is je bewijsvoering voor het vak.
 
 Lees de beoordelingscriteria voor deze opdracht in de [Rubric](https://github.com/cmda-minor-web/human-centered-design-2223/blob/main/README.md#rubric)
+
+
+<!-- 
+## Herkansing
+
+Eric is een veelgebruiker van social media, SMS, Bellen, Signal, Teams, Twitter of Instagram, die man is _unstopable_, hij is een rijdend sociaal medium ...  Interfaces van deze apps zijn over het algemeen bruikbaar maar niet specifiek ontworpen voor mensen met een motorische beperking. Eric heeft niet de beschikking over de fijne motoriek, je kan je misschien voorstellen dat het voor hem soms [behelpen](https://www.encyclo.nl/begrip/behelpen) is. 
+
+### Opdracht
+
+Protoype een van de volgende interacties:
+
+<details>
+<summary>Uploaden en inzoomen van foto's</summary>
+  <p></p>
+</details>
+
+### Werkwijze
+
+-->
+
