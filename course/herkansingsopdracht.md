@@ -5,12 +5,19 @@ Maak een prototype en test deze met een testpersoon.
 Met de testresultaten en feedback maak je daarna een tweede prototype, hierop wordt je beoordeeld. 
 
 
-## Opdracht
+## Testpersoon
+
+### Eric Groot Kormelink
+
+Eric is een ontwerper. Hij organiseert regelmatig design-avonden waar hij probeert om mensen met beperkingen samen te brengen met ontwerpers en makers. Eric zelf zit in een electrische rolstoel. Hij heeft niet de beschikking over de fijne motoriek. Hij heeft ooit met studenten van de minor Makers Lab gewerkt. Eric wilde zijn hele leven al gitaar spelen, maar zijn handen staan daar niet goed voor. Zijn team studenten heeft toen een werkend prototype gemaakt van een apparaat waarmee hij gitaar kan spelen.
 
 Eric is een veelgebruiker van social media, SMS, Bellen, Signal, Teams, Twitter of Instagram, die man is _unstopable_, 
 hij is een rijdend sociaal medium ...  
 Interfaces van deze apps zijn over het algemeen bruikbaar maar niet specifiek ontworpen voor mensen met een motorische beperking. 
 Eric heeft niet de beschikking over de fijne motoriek, je kan je misschien voorstellen dat het voor hem soms [behelpen](https://www.encyclo.nl/begrip/behelpen) is. 
+
+
+## Opdracht & werkwijze
 
 Ontwerp en maak voor Eric een interacties dat exclusief voor hem maakt: 
 
@@ -20,7 +27,7 @@ Ontwerp en maak voor Eric een interacties dat exclusief voor hem maakt:
 </details>
 
 
-## Werkwijze 
+### Werkwijze 
 
 1. Onderzoek wie je test-persoon is en hoe hij zijn computer en mobiel bedient. Gebruik hiervoor online bronnen die je kan vinden en de gemaakte opdrachteven van klasgenoten. 
 2. Beschrijf je test-persoon met een User scenario. Gebruik hiervoor het artikel: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) 
