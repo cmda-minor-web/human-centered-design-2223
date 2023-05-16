@@ -21,7 +21,7 @@ Ontwerp een interactie exclusief voor Eric:
 
 <details>
 <summary>Uploaden en inzoomen van foto's</summary>
-  <p>Voor het plaatsen van foto's in een app of website zijn verschillende handelingen nodig. Eric redt zich hier wel mee, hij kan foto's uploaden en plaatsen, maar de interactie zou voor hem wat makkelijker kunnen. Ontwerp voor Eric een functionaliteit waarmee hij makkelijk een foto kan uploaden en bewerken, zoals inzoomem, een uitsnede maken, draaien en/of in een kader plaatsen.</p>
+  <p>Voor het plaatsen van foto's in een app of website zijn verschillende handelingen nodig. Eric redt zich hier wel mee, hij kan foto's uploaden en plaatsen, maar de interactie zou voor hem wat makkelijker kunnen. Ontwerp voor Eric een functionaliteit waarmee hij eenvoudig een foto kan uploaden en bewerken, zoals inzoomem, een uitsnede maken, draaien en/of in een kader plaatsen.</p>
 </details>
 
 
