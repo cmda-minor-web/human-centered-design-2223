@@ -29,7 +29,7 @@ Ontwerp een interactie dat exclusief voor Eric is gemaakt:
 
 ### Werkwijze 
 
-1. Onderzoek wie je test-persoon is en hoe hij zijn computer en mobiel bedient. Gebruik hiervoor online bronnen die je kan vinden en de gemaakte opdrachteven van klasgenoten. 
+1. Onderzoek wie je test-persoon is en hoe hij zijn computer en mobiel bedient. Gebruik hiervoor online bronnen en de gemaakte opdrachteven van klasgenoten. 
 2. Beschrijf je test-persoon met een User scenario. Gebruik hiervoor het artikel: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) 
 3. Ontwerp en maak verschillende prototypes in HTML, CSS en/of JS, om te testen
 4. Schrijf een testplan en test je ontwerp met de test-persoon
