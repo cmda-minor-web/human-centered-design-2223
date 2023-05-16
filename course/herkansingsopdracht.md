@@ -2,7 +2,7 @@
 
 Als je het vak niet hebt gehaald krijg je een herkansingsopdracht. 
 Maak een prototype en test deze met een testpersoon. 
-Met de testresultaten en feedback maak je daarna een tweede prototype, hierop wordt je beoordeeld. 
+Met de testresultaten en feedback maak je daarna een tweede versie. 
 
 
 ## Testpersoon
