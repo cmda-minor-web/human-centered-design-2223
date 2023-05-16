@@ -12,11 +12,11 @@ hij is een rijdend sociaal medium ...
 Interfaces van deze apps zijn over het algemeen bruikbaar maar niet specifiek ontworpen voor mensen met een motorische beperking. 
 Eric heeft niet de beschikking over de fijne motoriek, je kan je misschien voorstellen dat het voor hem soms [behelpen](https://www.encyclo.nl/begrip/behelpen) is. 
 
-Ontwerp en maak voor Eric een interacties dat exclusief gemaakt is voor hem: 
+Ontwerp en maak voor Eric een interacties dat exclusief voor hem maakt: 
 
 <details>
 <summary>Uploaden en inzoomen van foto's</summary>
-  <p></p>
+  <p>Voor het plaatsen van foto's in een app of website zijn veschillende handelingen nodig. Eric redt zich hier wel mee, hij kan prima foto's uploaden en plaatsen, maar de interactie zou voor hem wat makkelijker kunnen worden gemaakt. Ontwerp en maak voor Eric een functionaliteit waarmee hij makkelijk een foto kan uploaden en bewerken, zoals inzoomem, een uitsnede maken, draaien en/of in een kader plaatsen.</p>
 </details>
 
 
