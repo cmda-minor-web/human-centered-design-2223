@@ -43,6 +43,7 @@ Hoe bedient deze persoon een computer?
 | [Week 2](#week-2---prototypen-en-testen)  | College + Testen | ~~Koningsdag~~  | ~~Vrij~~  | 
 | ~~Meivakantie~~ |   |  |   |
 | [Week 3](#week-3---prototypen-presenteren-en-reflecteren)  | College  |  Onderzoeken presenteren | Beoordelingsgesprekken  |
+| [Week x](#week-x---herkansing)  |  |  |  |
 
 
 ## Week 1 - Intro en aannames testen 
@@ -100,6 +101,16 @@ Donderdag gaan we de onderzoeken presenteren en gaan we een site maken om al jul
 ### Vrijdag 12 mei
 
 Op vrijdag zijn de beoordelingsgesprekken. Je hebt dan een gesprek waarin we je vorderingen en bevindingen bespreekt. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
+
+
+
+## Week x - Herkansing
+
+Als je het vak niet hebt gehaald krijg je een herkansingsopdracht. 
+Maak een prototype en test deze met een testpersoon. 
+Met de testresultaten en feedback maak je daarna een tweede prototype, hierop wordt je beoordeeld. 
+
+- [Herkansingsopdracht](course/herkansingsopdracht.md)
 
 
 
