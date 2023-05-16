@@ -19,7 +19,7 @@ Eric heeft niet de beschikking over de fijne motoriek, je kan je misschien voors
 
 ## Opdracht & werkwijze
 
-Ontwerp en maak voor Eric een interacties dat exclusief voor hem maakt: 
+Ontwerp een interactie dat exclusief voor Eric is gemaakt: 
 
 <details>
 <summary>Uploaden en inzoomen van foto's</summary>
