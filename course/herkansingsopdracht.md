@@ -24,7 +24,7 @@ Ontwerp en maak voor Eric een interacties dat exclusief voor hem maakt:
 
 1. Onderzoek wie je test-persoon is en hoe hij zijn computer en mobiel bedient. Gebruik hiervoor online bronnen die je kan vinden en de gemaakte opdrachteven van klasgenoten. 
 2. Beschrijf je test-persoon met een User scenario. Gebruik hiervoor het artikel: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) 
-3. Ontwerp en maak verschillende prototypes voor de interactie die je wil testen in HTML, CSS en/of JS.
+3. Ontwerp en maak verschillende prototypes in HTML, CSS en/of JS, om te testen
 4. Schrijf een testplan en test je ontwerp met de test-persoon
 5. Schrijf een gestructureerd testverslag met je bevindingen en wat je gaat aanpassen voor een volgended versie, pas je User Scenario aan op basis van de test 
 6. Maak een definitief prototype op basis van je bevindingen
