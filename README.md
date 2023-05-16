@@ -43,7 +43,7 @@ Hoe bedient deze persoon een computer?
 | [Week 2](#week-2---prototypen-en-testen)  | College + Testen | ~~Koningsdag~~  | ~~Vrij~~  | 
 | ~~Meivakantie~~ |   |  |   |
 | [Week 3](#week-3---prototypen-presenteren-en-reflecteren)  | College  |  Onderzoeken presenteren | Beoordelingsgesprekken  |
-| [Week x](#week-x---herkansing)  |  |  |  |
+| [Week x](#week-x---herkansing)  |  |  | Testen |
 
 
 ## Week 1 - Intro en aannames testen 
@@ -111,6 +111,12 @@ Maak een prototype en test deze met een testpersoon.
 Met de testresultaten en feedback maak je daarna een tweede prototype, hierop wordt je beoordeeld. 
 
 - [Herkansingsopdracht](course/herkansingsopdracht.md)
+
+### Vrijdag 26 mei
+Testen 
+
+### Vrijdag 2 juni
+Documentatie opleveren & beoordeling
 
 
 
