@@ -17,7 +17,7 @@ hij is een rijdend sociaal medium ...  Interfaces van deze apps zijn over het al
 
 ## Opdracht & werkwijze
 
-Ontwerp een interactie dat exclusief voor Eric is gemaakt: 
+Ontwerp een interactie exclusief voor Eric: 
 
 <details>
 <summary>Uploaden en inzoomen van foto's</summary>
