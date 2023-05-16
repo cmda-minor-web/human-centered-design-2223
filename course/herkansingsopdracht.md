@@ -9,8 +9,6 @@ Met de testresultaten en feedback maak je daarna een tweede versie.
 
 ### Eric Groot Kormelink
 
-Eric is een ontwerper. Hij organiseert regelmatig design-avonden waar hij probeert om mensen met beperkingen samen te brengen met ontwerpers en makers. Eric zelf zit in een electrische rolstoel. Hij heeft ooit met studenten van de minor Makers Lab gewerkt. Eric wilde zijn hele leven al gitaar spelen, maar zijn handen staan daar niet goed voor. Zijn team studenten heeft toen een werkend prototype gemaakt van een apparaat waarmee hij gitaar kan spelen.
-
 Eric is een veelgebruiker van social media, SMS, Bellen, Signal, Teams, Twitter of Instagram, die man is _unstopable_, 
 hij is een rijdend sociaal medium ...  Interfaces van deze apps zijn over het algemeen bruikbaar maar niet specifiek ontworpen voor mensen met een motorische beperking.  Eric heeft niet de beschikking over de fijne motoriek, je kan je misschien voorstellen dat het voor hem soms [behelpen](https://www.encyclo.nl/begrip/behelpen) is. 
 
